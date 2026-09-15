@@ -1,6 +1,6 @@
 // src/components/RequestQuote.jsx
-import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { business } from "@/lib/business";
+import WhatsAppCTA from "./Whatsappcta";
 
 export default function RequestQuote() {
   return (

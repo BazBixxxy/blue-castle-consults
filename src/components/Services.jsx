@@ -1,7 +1,7 @@
 // src/components/Services.jsx
 import { Landmark, FileCheck2, Leaf } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import WhatsAppCTA from "@/components/WhatsAppCTA";
+import WhatsAppCTA from "./Whatsappcta";
 import { business } from "@/lib/business";
 import { useInView } from "@/hooks/useInView";
 

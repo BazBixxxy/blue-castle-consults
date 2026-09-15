@@ -1,7 +1,7 @@
 // src/components/Listings.jsx
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import WhatsAppCTA from "@/components/WhatsAppCTA";
+import WhatsAppCTA from "./Whatsappcta";
 import { business, listings } from "@/lib/business";
 
 export default function Listings() {
