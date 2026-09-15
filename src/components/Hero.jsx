@@ -1,7 +1,7 @@
 // src/components/Hero.jsx
 import { useEffect, useState } from "react";
-import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { business } from "@/lib/business";
+import WhatsAppCTA from "./Whatsappcta";
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
