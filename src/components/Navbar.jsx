@@ -7,9 +7,9 @@ import {
   SheetTrigger,
   SheetClose,
 } from "@/components/ui/sheet";
-import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { business } from "@/lib/business";
 import { ModeToggle } from "./mode-toggle";
+import WhatsAppCTA from "./Whatsappcta";
 
 const LINKS = [
   { href: "#about", label: "About" },
