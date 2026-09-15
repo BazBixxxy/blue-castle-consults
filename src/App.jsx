@@ -26,7 +26,6 @@ import PrivacyPoliciesPage from "./pages/policies/PrivacyPoliciesPage";
 import ErrorBoundary from "./pages/ErrorBoundaryPage";
 import { Navigate } from "react-router-dom";
 import { useAuthContext } from "./context/auth-context";
-const ContactPage = lazy(() => import("./app/main/contact/pages/ContactPage"));
 
 const App = () => {
   const { authUser } = useAuthContext();
@@ -83,7 +82,7 @@ const App = () => {
             path="/chat"
             element={authUser ? <ChatPage /> : <Navigate to={"/login"} />}
           />
-          <Route path="/contact" element={<ContactPage />} />
+          {/* <Route path="/contact" element={<ContactPage />} /> */}
         </Route>
 
         {/* dashboard routes */}
