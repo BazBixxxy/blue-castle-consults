@@ -1,7 +1,7 @@
 // src/components/Contact.jsx
 import { MapPin, Phone, Clock } from "lucide-react";
-import WhatsAppCTA from "@/components/WhatsAppCTA";
 import { business } from "@/lib/business";
+import WhatsAppCTA from "./Whatsappcta";
 
 export default function Contact() {
   return (
